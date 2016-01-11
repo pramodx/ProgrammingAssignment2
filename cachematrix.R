@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Creating two functions - 1 is like a constructor function that set and gets a matrix and then
+## sets and gets the inverse of the matrix
 
-## Write a short comment describing this function
+## The makeCacheMatrix takes in a square matrix and have the setter getter functions to set the matrix
+## and also set and get its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   
@@ -17,7 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
   
 }
 
-## Write a short comment describing this function
+## The cacheSolve function takes the matrix as an argument and checks whether it has a cached inverse
+## If not the inverse is generated and cached.
 
 cacheSolve <- function(x, ...) {
   
